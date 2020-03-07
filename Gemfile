@@ -37,7 +37,7 @@ group :development, :test do
   gem 'byebug', '~> 11.0.1', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
-  gem 'rubyzip', '~> 1.2.2'
+  gem 'rubyzip', '~> 1.3.0'
   gem 'selenium-webdriver', '~> 3.142.7'
   
   # Use sqlite3 as the database for Active Record
